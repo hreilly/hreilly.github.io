@@ -27,6 +27,10 @@ body,div,footer,header,html,img,main,nav,section {
     max-width: 100%;
 }
 
+h1, h2, h3, h4, p {
+    max-width: var(--max-characters);
+}
+
 #main-content {
     padding: 50px;
 }
