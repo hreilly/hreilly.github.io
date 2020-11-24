@@ -148,6 +148,17 @@ a:hover {
     grid-row-end: 2;
     position: relative;
 }
+    #lead a, #lead a:visited {
+        color: var(--dark);
+        text-decoration: none;
+        display: block;
+        -webkit-transition: .1s ease;
+        transition: .1s ease;
+        width: fit-content;
+    }
+    #lead a:hover {
+        color: var(--night);
+    }
     #lead h1 {
         z-index: 100;
         position: relative;
@@ -596,6 +607,21 @@ footer {
     padding: 50px 80px 50px 60px;
     font-size: .7em;
 }
+    footer a, footer a:visited {
+        color: var(--dark);
+        text-decoration: none;
+        display: block;
+        -webkit-transition: .1s ease;
+        transition: .1s ease;
+        width: fit-content;
+        color: white; 
+        text-decoration: underline; 
+        padding-top: 20px; 
+        margin: auto;
+    }
+    footer a:hover {
+        color: var(--sun);
+    }
     footer p {
         width: fit-content;
         margin: auto;
