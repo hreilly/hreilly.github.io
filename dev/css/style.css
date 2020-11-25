@@ -166,7 +166,7 @@ a:hover {
     p.contact {
         margin-top: 30px;
         width: fit-content;
-        display: block;
+        display: inline-block;
     }
     .contact {
         font-family: var(--accent-font);
