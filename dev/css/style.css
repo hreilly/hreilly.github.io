@@ -436,7 +436,7 @@ a:hover {
                 grid-row-start: 2;
                 grid-row-end: 3;
                 background-color: var(--ice);
-                width: 80%;
+                width: 40%;
             }
             #bar-2 {
                 grid-column-start: 5;
@@ -452,7 +452,7 @@ a:hover {
                 grid-row-start: 4;
                 grid-row-end: 5;
                 background-color: var(--lime);
-                width: 30%;
+                width: 60%;
             }
             #bar-4 {
                 grid-column-start: 5;
@@ -460,7 +460,7 @@ a:hover {
                 grid-row-start: 5;
                 grid-row-end: 6;
                 background-color: var(--sun);
-                width: 45%;
+                width: 90%;
             }
             #bar-5 {
                 grid-column-start: 5;
@@ -468,7 +468,7 @@ a:hover {
                 grid-row-start: 6;
                 grid-row-end: 7;
                 background-color: var(--guava);
-                width: 95%;
+                width: 75%;
             }
             #quadrant-1 {
                 grid-column-start: 5;
