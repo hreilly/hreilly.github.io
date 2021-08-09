@@ -112,7 +112,7 @@
     display: block;
     margin-top: -30px;
     font-size: 30px;
-    content: "🠷";
+    content: "\1f847\FE0E";
     position: absolute;
     color: black;
     animation-name: arrow-bounce;
