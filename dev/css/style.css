@@ -28,10 +28,20 @@
     --sun: #FFE57F;
     --guava: #FF80AB;
     --night: #1A237E;
+    --golden: rgb(255,187,38);
+    --petunia: rgb(219,118,255);
+    --candy: rgb(251,72,191);
+    --tangerine: rgb(254,123,96);
+    --peachy: rgb(255,156,136);
+    --heart: rgb(255,155,221);
+    --iris: rgb(185,34,218);
     --max-characters:70ch;
     --main-font:'futura-pt',sans-serif;
     --main-font-var: 'futura-pt-bold',sans-serif;
     --accent-font:'PT Mono',sans-serif;
+    --serif-font:'Playfair Display',serif;
+    --display-font:'Unica One', sans-serif;
+    --heavy-font:'Bebas Neue', sans-serif;
 }
 
 body {
@@ -44,6 +54,7 @@ body {
 
 * {
     font-family: var(--main-font);
+    position: relative;
 }
 
 #wrapper {
@@ -60,15 +71,22 @@ body,div,footer,header,html,img,main,nav,section {
 h1, h2, h3, h4, p, li {
     max-width: var(--max-characters);
     margin: 0;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-h1 {
+#wrapper h1 {
     font-family: var(--main-font-var);
+    font-size: 2em;
 }
 
-h2 {
+#wrapper * h2 {
     margin: 50px 0px 20px auto;
     font-weight: 700;
+    font-size: 1.5em;
 }
 
 a, a:visited {
@@ -519,7 +537,7 @@ a:hover {
     }
 
     #education h3, #education p {
-        font-size: .9em;
+        font-size: .83em;
         font-family: var(--accent-font);
         font-weight: normal;
         line-height: 1.3;
@@ -718,8 +736,8 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-    :root {
-        font-size: calc(1rem + 1.5px);
+    #wrapper p {
+        font-size: calc(.9rem + 1.5px);
     }
     #strengths-label {
         letter-spacing: 2.5px;
@@ -733,6 +751,9 @@ footer {
     }
     .tech-category>span {
         font-size: calc(.8em + 1.5px);
+    }
+    #education h3, #education p {
+        font-size: 1em;
     }
     #interests {
         display: grid;
@@ -762,8 +783,8 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
-    :root {
-        font-size: calc(1rem + 2.7px);
+    #wrapper p {
+        font-size: calc(.7rem + 2.7px);
     }
     #strengths-label {
         letter-spacing: 3.7px;

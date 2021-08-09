@@ -9,12 +9,18 @@
 
     <title>Hannah Reilly - Resume & Portfolio</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/cover.css">
+    <script src="js/book.js"></script>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/aks3fxs.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a66a757a5f.js" crossorigin="anonymous"></script>
+
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
@@ -236,6 +242,217 @@
         </div>
     </div>
 </div>
+</div>
+
+<div class="the-bookshelf">
+
+    <!-- The Office Bookshelf 
+
+    ====================================
+    ||         _            __        ||
+    ||   __   | |_       __|  |       ||
+    ||  |  |__| | |___  |  |  |__     ||
+    ||  |  |  | | |   |_|  |  |\ \    ||
+    ||  |  |  | | |   | |  |  | \ \   ||
+    ||  |  |  | | |   | |  |  |  \ \  ||
+    ||__|__|__|_|_|___|_|__|__|___\_\_||
+    ------------------------------------
+
+    Read & Reading
+
+    -->
+
+    <!-- Template Block
+        
+    <div class="book" id="">
+        <div class="spine">
+            <div class="author"></div>
+            <div class="title"></div>
+            <div class="publisher"></div>
+            <div class="logo"></div>
+            <div class="detail"></div>
+        </div>
+        <div class="flyleaf">
+            <div class="flytitle"></div>
+            <div class="image"></div>
+            <div class="publication-date"></div>
+            <div class="purchase-link"></div>
+        </div>
+        <div class="cover-page">
+            <div class="description">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    -->
+
+    <div class="section-header">
+        <div class="section-background"></div>
+        <h1 class="section-title">Favorites from my office library.&nbsp;</h1>
+    </div>
+
+    <div id="library-wrapper">
+
+        <div id="library">
+
+            <div class="shelf-wrapper" aria-hidden="true">
+                <div class="shelf" id="shelf1">
+
+                    <div class="book" id="living-with-complexity" onclick="openBook(event, 'living-with-complexity-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Living with Complexity</h2>
+                            <h3 class="author-short vertical-text">Norman</h3>
+                            <div class="logo"></div>
+                            <div class="detail"></div>
+                        </div>
+                    </div>
+
+                    <div class="book" id="designing-experiences" onclick="openBook(event, 'designing-experiences-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Designing Experiences</h2>
+                            <h3 class="author-short vertical-text">Rossman and Duerden</h3>
+                            <div class="detail"></div>
+                        </div>
+                    </div>
+
+                    <div class="book" id="the-myth-and-the-mouse" onclick="openBook(event, 'the-myth-and-the-mouse-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">The Myth and the Mouse</h2>
+                            <h3 class="author-short vertical-text">Dorene Koehler</h3>
+                        </div>
+                    </div>
+
+                    <div class="book" id="theories-of-contemporary-art" onclick="openBook(event, 'theories-of-contemporary-art-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Theories and Documents of Contemporary Art</h2>
+                            <h3 class="author-short">Stiles and Selz</h3>
+                            <h4 class="subtitle vertical-text">A Sourcebook of Artists' Writings</h4>
+                        </div>
+                    </div>
+
+                    <div class="book" id="interactive-narratives" onclick="openBook(event, 'interactive-narratives-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Interactive Narratives and Transmedia Storytelling</h2>
+                            <h3 class="author-short vertical-text">Kelly M<span style="font-size: .6rem;">c</span>Erlean</h3>
+                        </div>
+                    </div>
+
+                    <div class="book" id="on-advertising" onclick="openBook(event, 'on-advertising-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">On Advertising</h2>
+                            <h3 class="author-short vertical-text">Ogilvy</h3>
+                        </div>
+                    </div>
+
+                    <div class="book" id="dream-it-do-it" onclick="openBook(event, 'dream-it-do-it-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Dream It! Do It!</h2>
+                            <div class="background-block">&nbsp;</div>
+                            <h3 class="author-short">Sklar</h3>
+                            <h4 class="subtitle vertical-text">My Half-Century Creating Disney's Magic Kingdoms</h4>
+                            <img class="spine-logo" src="assets/disney_editions_small.png">
+                        </div>
+                    </div>
+
+                    <div class="book" id="where-water-comes-together" onclick="openBook(event, 'where-water-comes-together-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text">Where Water Comes Together with Other Water</h2>
+                            <h3 class="author-short vertical-text">Raymond Carver</h3>
+                        </div>
+                    </div>
+
+                    <div class="book" id="the-imagineering-way" onclick="openBook(event, 'the-imagineering-way-content')">
+                        <div class="spine">
+                            <h2 class="book-title vertical-text"><span style="color:rgb(0, 179, 255);">The</span> <span style="color:rgb(235, 103, 21);">Imagineering</span> <span style="color:rgb(10, 183, 53);">Way</span></h2>
+                            <h3 class="author-short vertical-text">By The Imagineers</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="page-wrapper">
+                <div id="book-page">
+
+                    <div class="book-content" id="living-with-complexity-content" display="block">
+                        <h2 class="content-title">Living with Complexity</h2>
+                        <h3 class="content-author">Donald A. Norman</h3>
+                        <p class="excerpt">"Complexity can be rewarding, but it is also a challenge. Complex activities, events, and objects can be deep and satisfying. Complexity provides for multiple experiences and opportunities for engagement. It is to be relished and sought after. But complexity by itself is not a virtue: ill-structured, ill-advised complexity can be confusing and frustrating. The challenge for the designer is to provide well-structured, cohesive experiences, where the complexity can reveal its desirable face, not its ill-tempered, mystifying one. The challenge for us is to take the time and effort to learn the structure and the power of the design. Even the most complex things are simple to those who have mastered the structure, understood its operations, and have a cohesive interal understanding - a good conceptual model. <strong>Simplicity is in the mind.</strong> The perception of simplicity requires the joint efforts of those who design and those who use."</p>
+                        <a href="https://mitpress.mit.edu/books/living-complexity" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="designing-experiences-content">
+                        <h2 class="content-title">Designing Experiences</h2>
+                        <h3 class="content-author">J. Robert Rossman &amp; Mathew D. Duerden</h3>
+                        <p class="excerpt">"In a world where experiences matter, people are expecting more than a transactional relationship with companies. C. K. Prahalad and Venkat Ramaswamy, business professors at the University of Michigan, suggest that companies need to create experience environments for their customers to engage in rather than just providing prepackaged goods and services. People want experiences with beginnings, middles, and endings. They want experiences that place them as actors in compelling stories that lead them on journeys toward desirable end destinations...Although designing and delivering experiences is not always described as a storytelling process, we think it should be. The best experiences offer participants a chance to play a participatory role in an unfolding story. <strong>Do you know what type of story your experiences are telling your customers?</strong>"</p>
+                        <a href="http://cup.columbia.edu/book/designing-experiences/9780231191685" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="the-myth-and-the-mouse-content">
+                        <h2 class="content-title">The Myth and the Mouse</h2>
+                        <h3 class="content-author">Dorene Koehler</h3>
+                        <p class="excerpt">"Disneyland offers a safe haven for the imagination...It becomes a container for it, and although it cannot unify culture at large, it can offer a playground for humanity to have a unified experience of imagination while navigating the difference between child-ish-ness and child-like-ness. <strong>This intersection between play and meaning is the place where Disney's archetypal bounty lives.</strong> In the context of this, a trip to Disneyland can be likened to a temple pilgrimage. Although it is often suggested that it is a temple to consumerism and capitalist economics - a strong and important point to recognize - I would suggest that an environment built entirely on consumerism would eventually consume itself. Disneyland continues to stand because it is a temple to the imaginative power of myth, the creative action of ritual, and the transformative bonds of love, familial and otherwise."</p>
+                        <a href="https://iupress.org/9780861967278/the-mouse-and-the-myth/" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="theories-of-contemporary-art-content">
+                        <h2 class="content-title">Theories and Documents of Contemporary Art</h2>
+                        <h3 class="content-author">Edited by Kristine Stiles and Peter Selz</h3>
+                        <p class="excerpt">"I want that choked-up feeling in your throat which maybe comes from despair or teary-eyed sentimentality: <strong>conveying intangible emotions.</strong><br><br>A photograph should transcend itself, the image its medium, in order to have its own presence.<br><br>These are pictures of emotions personified, entirely of themselves with their own presence - not of me. The issue of the identity of the model is no more interesting than the possible symbolism of any other detail."</p>
+                        <p class="byline">- Excerpt from "Untitled Statement", Cindy Sherman | Photographer</p>
+                        <a href="https://www.ucpress.edu/book/9780520257184/theories-and-documents-of-contemporary-art" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="interactive-narratives-content">
+                        <h2 class="content-title">Interactive Narratives and Transmedia Storytelling</h2>
+                        <h3 class="content-author">Kelly McErlean</h3>
+                        <p class="excerpt"><strong>NARRATIVE CONSTRAINTS</strong><br><br>"Brenda Laurel identified the need for 'constraints' to guide the user towards a specific intent with regard to their interaction with the system; 'for an interface to work, the person has to have some idea about what the computer expects and can handle, and the computer has to incorporate some information about what the person's goals and behaviours are likely to be' (Laurel, 1991 p. 12). The story should have clearly identifiable borders of the space within which the user can navigate freely; 'Constraints should be applied without shrinking our perceived range of freedom of action: <strong>Constraints should limit, not what we can do, but what we are likely to think of doing</strong>'' (Laurel, 1991 p. 106)."</p>
+                        <a href="https://www.routledge.com/Interactive-Narratives-and-Transmedia-Storytelling-Creating-Immersive-Stories/McErlean/p/book/9781138638822" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="on-advertising-content">
+                        <h2 class="content-title">Ogilvy on Advertising</h2>
+                        <h3 class="content-author">David Ogilvy</h3>
+                        <p class="excerpt">"Few copywriters share my appetite for research. The late and great Bill Bernbach, among many others, thought that it inhibited creativity. My experience has been the opposite...I have seen ideas so wild that nobody in his senses would dare to use them - until research found that they worked. When I had the idea of writing headlines for French tourism <span style="font-style:italic;">in French</span>, my partners told me I was nuts - until research revealed that French headlines were more effective than English headlines. Research has also saved me from making some horrendous mistakes.<br><br>I admit that research is often misused by agencies and their clients. They have a way of using it to prove they are right. <strong>They use research as a drunkard uses a lamppost - not for illumination but for support.</strong>"</p>
+                        <a href="https://www.barnesandnoble.com/w/ogilvy-on-advertising-david-ogilvy/1118007054" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="dream-it-do-it-content">
+                        <h2 class="content-title">Dream It! Do It!</h2>
+                        <h3 class="content-author">Marty Sklar</h3>
+                        <p class="excerpt">"It became something of a cliche of my years at Imagineering. 'There are two ways to look at a blank sheet of paper,' I said. 'You can see it as the most firghtening thing in the world - because <span style="font-style: italic;">you have to make the first mark</span> on it. Or you can see a blank page as the greatest opportunity - <span style="font-style: italic;">you get to make the first mark</span> on it. You can let your imagination fly in any direction. You can create whole new worlds.'<br><br>I didn't care that it became a cliche. I remembered that comment George Lucas made in a meeting about the Star Tours attraction: 'Don't avoid the cliches,' George said. <strong>'They are cliches because they work!'</strong>"</p>
+                        <a href="https://books.disney.com/book/dream-it-do-it/" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="where-water-comes-together-content">
+                        <h2 class="content-title">Where Water Comes Together with Other Water</h2>
+                        <h3 class="content-author">Raymond Carver</h3>
+                        <p class="excerpt">"You simply go out and shut the door<br>
+                            without thinking. And when you look back<br>
+                            at what you've done<br>
+                            it's too late. If this sounds<br>
+                            like the story of a life, okay."
+                        </p>
+                        <p class="byline">- Excerpt from "Locking Yourself Out, Then Trying to Get Back In"</p>
+                        <a href="https://www.penguinrandomhouse.com/books/24966/where-water-comes-together-with-other-water-by-raymond-carver/" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                    <div class="book-content" id="the-imagineering-way-content">
+                        <h2 class="content-title">The Imagineering Way</h2>
+                        <h3 class="content-author">By The Imagineers</h3>
+                        <p class="excerpt">"Any time I am in need of an idea, I will look to facts first. Facts are the best foundation for creating fantasies - <strong>the imagination anchors best in what we know.</strong> Once anchored, it allows us to spin and weave threads of information into an idea.<br><br>I like to pick the facts that are the most exciting to me and then check them out to see if they interest others. When others respond to facts that are recognizable, it is easier to engage them in ideas that have a familiar ring before taking them off unexpectedly into the world of fantasy."</p>
+                        <p class="byline">- Excerpt from "The Facts of Fantasy", Peggy Van Pelt | Imagineer</p>
+                        <a href="https://www.abebooks.com/9780786854011/Imagineering-Way-Ideas-Ignite-Creativity-0786854014/plp" class="book-link" target="_blank"><i class="fas fa-link"></i>&nbsp;More about this book...</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
 
 <footer>
